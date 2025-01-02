@@ -1,0 +1,27 @@
+baseURL = "https://dahultimate.fr/"
+languageCode = "fr"
+defaultContentLanguage = "fr"
+
+title = "Lynx"
+# copyright = "Copy, _right?_ :thinking_face:"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[params.author]
+  name = "Dahultimate"
+  headline = "Association sportive d'Ultimate Frisbee à Annecy"
+  image = "logo.jpg"  # path relative to static directory
+
+  links = [
+    { facebook = "https://www.facebook.com/dahultimate/" },
+    { instagram = "https://www.instagram.com/dahultimate_annecy" },
+    { youtube = "https://youtube.com/Dahultimate" },
+    { link = {href = "https://www.helloasso.com/associations/dahultimate", text = "HelloAsso", icon = "helloasso" }},
+    { link = {href = "mailto:hello@your_domain.com", text = "Nous contacter par e-mail", icon = "email" }}
+  ]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"
