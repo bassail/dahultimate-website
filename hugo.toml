@@ -1,0 +1,4 @@
+baseURL = 'https://dahultimate.fr/'
+languageCode = 'fr-fr'
+title = 'Dahultimate'
+theme = 'lynx'
