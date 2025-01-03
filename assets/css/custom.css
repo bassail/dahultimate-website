@@ -1,0 +1,9 @@
+.link-helloasso {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(
+      90deg,
+      #F59C1C 0%,
+      #B94794 50%,
+      #61B984 100%
+    );
+  }
